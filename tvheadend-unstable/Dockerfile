@@ -1,5 +1,5 @@
 FROM phusion/baseimage:0.9.16
-MAINTAINER tobbenb <torbjornbrekke@gmail.com>
+MAINTAINER dcflachs <dcflachs@gmail.com>
 ENV DEBIAN_FRONTEND noninteractive
 
 #Disable the SSH server

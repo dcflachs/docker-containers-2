@@ -23,7 +23,7 @@ libavahi-client-dev zlib1g-dev libcurl4-gnutls-dev python \
 liburiparser1 liburiparser-dev \
 libhdhomerun-dev dvb-apps && \
 cd /tmp && git clone https://github.com/dcflachs/tvheadend.git && cd tvheadend && \
-git checkout 2d0778f943 && ./configure --enable-libffmpeg_static && make && make install && \
+git checkout f9822263db && ./configure --enable-libffmpeg_static && make && make install && \
 rm -r /tmp/tvheadend && apt-get purge -qq build-essential pkg-config git && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 
